@@ -6,18 +6,10 @@ Welcome to the Terraform-Playground repository! This repository is a space for e
 
 Before you begin, make sure you have the following prerequisites installed:
 
-- [Terraform CLI](https://www.terraform.io/downloads.html): The Terraform command-line tool is essential for managing infrastructure using Terraform configurations.
+- [Terraform CLI](https://www.terraform.io): The Terraform command-line tool is essential for managing infrastructure using Terraform configurations.
 
     **Installation (Linux/macOS/Windows):**
-    ```bash
-    # Linux/macOS (using curl)
-    curl -O https://releases.hashicorp.com/terraform/<TERRAFORM_VERSION>/terraform_<TERRAFORM_VERSION>_linux_amd64.zip
-    unzip terraform_<TERRAFORM_VERSION>_linux_amd64.zip
-    sudo mv terraform /usr/local/bin/
-
-    # Windows (using Chocolatey)
-    choco install terraform
-    ```
+    Download and install the terraform CLI from the [official website](https://www.terraform.io).
 
 - [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli): The Azure Command-Line Interface allows you to interact with Azure services.
 
