@@ -1,12 +1,12 @@
-# Basic Azure CLI Commands
+# Basic Terraform CLI Commands
 
-Azure Command-Line Interface (Azure CLI) is a command-line tool that allows you to interact with Microsoft Azure, Microsoft's cloud computing platform. Here are some basic Azure CLI commands to help you get started:
+Terraform is an infrastructure as code (IaC) tool that allows you to define and provision infrastructure resources using configuration files. Here are some basic Terraform CLI commands to help you get started:
 
 1. **Login to Azure:**
-    This command will open a web page where you can log in with your Azure account credentials. After successful login, it will authenticate your CLI session.
-    ```bash
-    az login
-    ```
+```bash
+az login
+```
+This command will open a web page where you can log in with your Azure account credentials. After successful login, it will authenticate your CLI session.
 
 2. **View Help and Documentation**
 ```bash
