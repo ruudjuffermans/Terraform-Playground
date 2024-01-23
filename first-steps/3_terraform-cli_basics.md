@@ -20,6 +20,12 @@ By running terraform init in your project directory, you ensure that your Terraf
 
 Remember that you need to run terraform init in your project directory only once initially and whenever you change the provider or module requirements in your configuration. It's not necessary to run terraform init before every plan or apply operation unless there have been changes to the provider or module dependencies.
 
+## terraform fmt
+terraform fmt is a command in Terraform that automatically formats your Terraform code files to follow a consistent and organized style. It helps maintain code readability and consistency across your project by applying formatting rules and making your code easier to work with.
+
+```bash
+terraform fmt
+```
 
 
 ## terraform plan
