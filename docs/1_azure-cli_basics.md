@@ -12,6 +12,12 @@ az login
 az --help
 ```
 
+2. **Verify Loged in state**
+```bash
+az account show
+```
+
+
 3. **List Available Subscriptions**
 ```bash
 az account list --output table
