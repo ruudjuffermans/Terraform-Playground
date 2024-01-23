@@ -10,17 +10,11 @@ terraform init
 ```
 
 It performs several important tasks:
-
 1. Provider Installation: If your configuration references any external Terraform providers (such as the Azure Provider, AWS Provider, etc.), terraform init downloads and installs the required provider plugins. These provider plugins enable Terraform to interact with the corresponding cloud or infrastructure services.
-
 2. Module Installation: If your configuration uses Terraform modules from external sources (such as the Terraform Registry or Git repositories), terraform init downloads and installs those modules, making them available for use in your project.
-
 3. Plugin Version Validation: It checks that the installed provider and module versions match the versions specified in your configuration. This helps ensure consistency in your infrastructure code.
-
 4. Initialize the Backend: If you're using a remote backend (e.g., remote state storage in Azure Storage, AWS S3, or HashiCorp Terraform Cloud), terraform init initializes the backend configuration, such as creating a workspace or connecting to the remote state.
-
 5. Create the .terraform Directory: The command creates a .terraform directory in your working directory, where it stores provider plugins, modules, and other metadata required for the operation of your Terraform configuration.
-
 6. Configuration Validation: terraform init validates your Terraform configuration files for syntax errors and correct structure.
 
 By running terraform init in your project directory, you ensure that your Terraform environment is properly set up, and all necessary dependencies are available for future operations like terraform plan and terraform apply. It's typically one of the first commands you run when starting a new Terraform project or when working on an existing one, after checking out the code from version control.
