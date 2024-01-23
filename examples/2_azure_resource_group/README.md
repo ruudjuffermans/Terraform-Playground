@@ -1,4 +1,4 @@
-# Azure Provider Terraform File
+# Azure Resource Group
 
 1. **Initialize the Terraform Environment**
 ```bash

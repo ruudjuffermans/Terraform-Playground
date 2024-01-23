@@ -1,4 +1,4 @@
-# Azure Virtual Network
+# Azure Subnets
 
 1. **Initialize the Terraform Environment**
 ```bash
@@ -15,7 +15,7 @@ terraform fmt
 terraform plan
 ```
 This is the result:
-![Local Image](../../images/plan_virtual_network.png)
+![Local Image](../../images/plan_subnets.png)
 
 4. **Deploy the Plan**
 ```bash
@@ -34,5 +34,5 @@ terraform plan --destroy
 
 7. **Destroy the Resources**
 ```bash
-terraform destroy
+terraform destroy --auto-approve
 ```

@@ -26,8 +26,6 @@ resource "azurerm_virtual_network" "example" {
   resource_group_name = azurerm_resource_group.example.name
   location            = azurerm_resource_group.example.location
 
-  # Address Space
-  # Specifies the IP address space for the virtual network in CIDR notation. In this case, it's a /16 subnet (10.0.0.0 - 10.0.255.255).
   address_space = ["10.0.0.0/16"]
 
   tags = {
@@ -37,3 +35,9 @@ resource "azurerm_virtual_network" "example" {
   }
 }
 
+resource "azurerm_subnet" "example" {
+  name                 = "example-subnet"
+  resource_group_name  = azurerm_resource_group.example.name
+  virtual_network_name = azurerm_virtual_network.example.name
+  address_prefixes     = ["10.0.1.0/24"]
+}
