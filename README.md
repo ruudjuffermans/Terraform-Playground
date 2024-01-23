@@ -44,6 +44,12 @@ Before you begin, make sure you have the following prerequisites installed:
 
 4. Use the VSCode editor with the Terraform plugin for a seamless development experience.
 
+## Folder Structure
+
+- `first-steps`: This folder contains ordered markdown files with information on how to use the Azure CLI, the most basic Terraform file content, the Terraform CLI, and how to deploy some resources.
+
+- `examples`: This folder contains ordered examples that incrementally build the Terraform file, starting from very basic configurations and progressing to a file that contains a resource group, a virtual network, and a subnet.
+
 ## Contributing
 
 Contributions to this Terraform playground are welcome! Whether you want to add new examples, fix issues, or improve documentation, feel free to open a pull request.
