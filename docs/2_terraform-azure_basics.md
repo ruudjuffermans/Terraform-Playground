@@ -1,3 +1,5 @@
+# Basic Terraform File
+```hcl
 # Terraform Configuration Block
 # This block is used to configure global settings for your Terraform project.
 terraform {
@@ -68,3 +70,4 @@ resource "azurerm_virtual_network" "example" {
   # Specifies the IP address space for the virtual network in CIDR notation. In this case, it's a /16 subnet (10.0.0.0 - 10.0.255.255).
   address_space = ["10.0.0.0/16"]
 }
+```
