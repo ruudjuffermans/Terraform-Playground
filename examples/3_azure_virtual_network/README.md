@@ -22,7 +22,17 @@ This is the result:
 terraform apply --auto-approve
 ```
 
-5. **Destroy the Resources**
+5. **Show State**
+```bash
+terraform state list
+```
+
+6. **Review Destroy Plan**
+```bash
+terraform plan --destroy
+```
+
+7. **Destroy the Resources**
 ```bash
 terraform destroy
 ```
