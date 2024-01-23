@@ -1,3 +1,5 @@
+# Azure Provider Terraform File
+
 1. **Initialize the Terraform Environment**: Use `terraform init` to initialize your Terraform environment. This step downloads the specified version (3.88.0) of the Azure provider and prepares your working directory for further Terraform operations.
 ```bash
 terraform init
