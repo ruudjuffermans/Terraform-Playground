@@ -17,7 +17,7 @@ terraform {
       # Provider Version
       # The version specifies the exact version of the "azurerm" provider to use.
       # Pinning to a specific version helps ensure consistency.
-      version = "=3.0.0"
+      version = "=3.88.0"
     }
   }
 }
