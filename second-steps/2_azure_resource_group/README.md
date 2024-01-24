@@ -15,7 +15,7 @@ terraform fmt
 terraform plan
 ```
 This is the result:
-![Local Image](../../images/plan_resource_group.png)
+![Local Image](../../assets/plan_resource_group.png)
 
 4. **Deploy the Plan**
 ```bash

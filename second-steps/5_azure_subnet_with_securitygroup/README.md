@@ -1,4 +1,4 @@
-# Azure Virtual Network
+# Azure Security Group
 
 1. **Initialize the Terraform Environment**
 ```bash
@@ -15,12 +15,14 @@ terraform fmt
 terraform plan
 ```
 This is the result:
-![Local Image](../../images/plan_virtual_network.png)
+![Local Image](../../assets/plan_secgroup.png)
 
 4. **Deploy the Plan**
 ```bash
 terraform apply --auto-approve
 ```
+This is the result:
+![Local Image](../../assets/apply_secgroup.png)
 
 5. **Show State**
 ```bash
@@ -34,5 +36,5 @@ terraform plan --destroy
 
 7. **Destroy the Resources**
 ```bash
-terraform destroy
+terraform destroy --auto-approve
 ```

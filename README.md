@@ -48,7 +48,9 @@ Before you begin, make sure you have the following prerequisites installed:
 
 - `first-steps`: This folder contains ordered markdown files with information on how to use the Azure CLI, the most basic Terraform file content, the Terraform CLI, and how to deploy some resources.
 
-- `examples`: This folder contains ordered examples that incrementally build the Terraform file, starting from very basic configurations and progressing to a file that contains a resource group, a virtual network, and a subnet.
+- `second-steps`: This folder contains ordered terraform files that incrementally build the Azure Setup, starting from very basic configurations and progressing to a file that contains a network, with a subnet that is open to the internet, and a vm that can be ssh'ed into.
+
+- `examples`: This folder contains some example setups.
 
 ## Contributing
 

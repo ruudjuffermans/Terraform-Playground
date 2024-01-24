@@ -1,4 +1,4 @@
-# Azure Subnets
+# Azure NIC
 
 1. **Initialize the Terraform Environment**
 ```bash
@@ -14,15 +14,11 @@ terraform fmt
 ```bash
 terraform plan
 ```
-This is the result:
-![Local Image](../../images/plan_secgroup.png)
 
 4. **Deploy the Plan**
 ```bash
 terraform apply --auto-approve
 ```
-This is the result:
-![Local Image](../../images/apply_secgroup.png)
 
 5. **Show State**
 ```bash

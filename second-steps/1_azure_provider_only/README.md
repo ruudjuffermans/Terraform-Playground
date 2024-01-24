@@ -16,4 +16,4 @@ terraform plan
 ```
 
 This is the result so no further actions would result into changes.
-![Local Image](../../images/plan_match.png)
+![Local Image](../../assets/plan_match.png)
